@@ -24,9 +24,13 @@ The whole history of loans is visible for clients, including loan extensions.
 
 # Available Scripts
 In the project directory, you can run:
+## Install
+`npm install`
 
-## `npm start`
+##  Start
+`npm start`
 Runs the app in the development mode.
 
-## `npm test`
+##  Test
+`npm test`
 Run tests
