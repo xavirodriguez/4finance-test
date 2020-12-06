@@ -1,0 +1,7 @@
+const HIGH_RISK = {
+    MAX_AMOUNT : 400,
+    MAX_LOAN_TIME : 30000,
+    ANTEPENULTIMATE : 60000
+}
+
+export default HIGH_RISK;
