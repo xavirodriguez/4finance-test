@@ -6,9 +6,9 @@ import { useState } from 'react';
 
 function App() {
   const [myLoans, setMyLoans] = useState([
-    { id: 1, submissionDate: '10.12.2020', repaymentDate: '11.12.2020', loanAmount: 100, repayment: 110, hasBeenExtended: false },
-    { id: 2, submissionDate: '10.12.2020', repaymentDate: '11.12.2020', loanAmount: 200, repayment: 220, hasBeenExtended: false },
-    { id: 3, submissionDate: '10.12.2020', repaymentDate: '11.12.2020', loanAmount: 300, repayment: 330, hasBeenExtended: true },
+    { id: 1, submissionDate: moment('2020-10-12'), repaymentDate: moment('2020-11-12'), loanAmount: 100, repayment: 110, hasBeenExtended: false },
+    { id: 2, submissionDate: moment('2020-10-12'), repaymentDate: moment('2020-11-12'), loanAmount: 200, repayment: 220, hasBeenExtended: false },
+    { id: 3, submissionDate: moment('2020-10-12'), repaymentDate: moment('2020-11-12'), loanAmount: 300, repayment: 330, hasBeenExtended: true },
   ]);
 
   const addLoan = (submissionDate, repaymentDate, amount) => {

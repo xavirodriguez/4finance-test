@@ -49,6 +49,7 @@ function Form(props) {
                             className="form-control"
                             rules={{ required: { value: true, message: "Repayment date is required" } }}
                             control={control}
+                            defaultValue={nextMonth}
                             render={({ onChange, value }) => (
                                 <DatePicker
                                     className="form-control"
